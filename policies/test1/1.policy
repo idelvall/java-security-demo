@@ -1,0 +1,4 @@
+grant {
+  permission java.io.FilePermission "/tmp/*", "read,write";
+  permission java.lang.RuntimePermission "getProtectionDomain";
+};
